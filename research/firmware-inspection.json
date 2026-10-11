@@ -1,0 +1,22 @@
+{
+  "filename": "BlackBox.fwsc",
+  "size_bytes": 700436,
+  "sha256": "c0fef191b860d3b20f77fc492a24986eef2d12df44bb5e38355684820e26cb08",
+  "marker_offsets_decimal": {
+    "AC791N_STORY": [
+      1060
+    ],
+    "JLUFW": [
+      700420
+    ],
+    "uboot.": [
+      690122
+    ],
+    "*.ufw": [
+      700105
+    ]
+  },
+  "interpretation": "Update-container offsets only; no disassembly or device access.",
+  "source_id": "S05",
+  "checked_on": "2026-10-11"
+}

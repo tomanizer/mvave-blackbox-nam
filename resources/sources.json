@@ -1,0 +1,577 @@
+{
+  "schema_version": 1,
+  "baseline_date": "2026-10-11",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "FCC 2024 internal-photo catalog, exhibit 7467092",
+      "url": "https://fccid.io/2ARCP-BLACKBOX/Internal-Photos/Internal-photos-7467092",
+      "kind": "filing-catalog",
+      "status": "metadata-verified",
+      "checked_on": "2026-10-11",
+      "note": "FCC ID 2ARCP-BLACK-BOX; applicant Sinco Intelligent Technology Co., Ltd.; original filing 2024-07-11."
+    },
+    {
+      "id": "S02",
+      "title": "FCC 2025 internal-photo catalog, exhibit 8052662",
+      "url": "https://fccid.io/2ARCP-BLACKBOX/Internal-Photos/Internal-Photo-8052662",
+      "kind": "filing-catalog",
+      "status": "metadata-verified",
+      "checked_on": "2026-10-11",
+      "note": "FCC ID 2ARCP-BLACKBOX, 2025-02-17. PDF not retrieved or compared locally."
+    },
+    {
+      "id": "S03",
+      "title": "FCC 2024 internal-photo PDF",
+      "url": "https://fccid.io/2ARCP-BLACK-BOX/Internal-Photos/Internal-photos-7467092.pdf",
+      "kind": "primary-photo-exhibit",
+      "status": "retrieved-and-inspected",
+      "checked_on": "2026-10-11",
+      "note": "Five pages; hash verified locally. Limited excerpts accompany analysis; complete PDF not republished.",
+      "download_filename": "fcc-internal-7467092.pdf",
+      "sha256": "f1779277680549124da59de20a534594ee7559f49b43a94aea681a97cba66386",
+      "size_bytes": 1756382,
+      "hash_verification": "local-bytes"
+    },
+    {
+      "id": "S04",
+      "title": "M-Vave official downloads",
+      "url": "https://www.m-vave.com/download",
+      "kind": "vendor",
+      "status": "verified",
+      "checked_on": "2026-10-11",
+      "note": "Lists ANNBLACKBOX V20 dated 2026-01-31. Also lists ANN format conversion software; conversion does not establish native NAM."
+    },
+    {
+      "id": "S05",
+      "title": "Official BlackBox.fwsc update",
+      "url": "https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/firmware/BlackBox.fwsc",
+      "kind": "firmware",
+      "status": "retrieved-and-scanned",
+      "checked_on": "2026-10-11",
+      "note": "Mutable vendor URL. Record applies to bytes retrieved on 2026-10-11; update is not a full device backup.",
+      "download_filename": "BlackBox.fwsc",
+      "sha256": "c0fef191b860d3b20f77fc492a24986eef2d12df44bb5e38355684820e26cb08",
+      "size_bytes": 700436,
+      "hash_verification": "local-bytes"
+    },
+    {
+      "id": "S06",
+      "title": "Official Blackbox release note",
+      "url": "https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/BlackBox.txt",
+      "kind": "vendor-release-note",
+      "status": "retrieved-and-inspected",
+      "checked_on": "2026-10-11",
+      "note": "GB18030 text; V20 adds AM4 support. Earlier entries describe MIDI, latency and format changes.",
+      "download_filename": "BlackBox-release.txt",
+      "sha256": "a31347045b5fc7eab033ffbde41c71a71ddb23d6db593ba522c04850944a4545",
+      "size_bytes": 3205,
+      "hash_verification": "local-bytes"
+    },
+    {
+      "id": "S07",
+      "title": "Sinco ANN white paper",
+      "url": "https://yms-file-store.oss-cn-hongkong.aliyuncs.com/manual/white-paper/ANN.pdf",
+      "kind": "vendor",
+      "status": "retrieved-and-inspected",
+      "checked_on": "2026-10-11",
+      "note": "Vendor explanation of proprietary ANN; not executable model-format or inference implementation documentation.",
+      "download_filename": "ANN-white-paper.pdf",
+      "sha256": "4d7f45126035f1f1427e1143686a52eb0811286c9b0edcda8994c004679bc688",
+      "size_bytes": 2521545,
+      "hash_verification": "local-bytes"
+    },
+    {
+      "id": "S08",
+      "title": "TONE3000 embedded A2 runtime",
+      "url": "https://github.com/tone-3000/embedded",
+      "kind": "software-primary",
+      "status": "verified",
+      "checked_on": "2026-10-11",
+      "note": "MIT runtime candidate; ARM-specific optimized kernels and portable C paths. Not a demonstrated Blackbox port."
+    },
+    {
+      "id": "S09",
+      "title": "TONE3000 nam-binary-loader",
+      "url": "https://github.com/tone-3000/nam-binary-loader",
+      "kind": "software-primary",
+      "status": "verified",
+      "checked_on": "2026-10-11",
+      "note": "MIT binary serialization and desktop conversion tools; serialization does not make all models compatible with a fixed-shape engine."
+    },
+    {
+      "id": "S10",
+      "title": "NeuralAmpModelerCore",
+      "url": "https://github.com/sdatkinson/NeuralAmpModelerCore",
+      "kind": "software-primary",
+      "status": "verified",
+      "checked_on": "2026-10-11",
+      "note": "MIT C++ reference inference library; use as numerical reference."
+    },
+    {
+      "id": "S11",
+      "title": "TONE3000 A2 guide",
+      "url": "https://www.tone3000.com/guides/nam-a2-the-complete-guide",
+      "kind": "vendor-primary",
+      "status": "verified",
+      "checked_on": "2026-10-11",
+      "note": "Architecture/model-selection context; check downloaded model configuration rather than relying on a title."
+    },
+    {
+      "id": "S12",
+      "title": "M-Vave FM-1 community resource hub",
+      "url": "https://github.com/aroum/fm1-custom-fw",
+      "kind": "community-primary",
+      "status": "verified",
+      "checked_on": "2026-10-11",
+      "note": "FM-1 ecosystem and tooling directory. Linked project existence is not proof of Blackbox compatibility."
+    },
+    {
+      "id": "S13",
+      "title": "FM-1 firmware architecture research",
+      "url": "https://github.com/AL-255/FM-1-RE/blob/main/docs/architecture.md",
+      "kind": "research-primary",
+      "status": "verified",
+      "checked_on": "2026-10-11",
+      "note": "FM-1 V13 architecture: AC791N/WL82, msfa-derived sound engine and JieLi ui_core; not a Blackbox map."
+    },
+    {
+      "id": "S14",
+      "title": "Felucca firmware",
+      "url": "https://github.com/hugelton/Felucca",
+      "kind": "software-primary",
+      "status": "verified",
+      "checked_on": "2026-10-11",
+      "note": "Leo Kuroshita / H\u00fcgelton Instruments FM-1 firmware. GPL project with separately licensed packaged assets."
+    },
+    {
+      "id": "S15",
+      "title": "Felucca build guide",
+      "url": "https://github.com/hugelton/Felucca/blob/main/BUILDING.md",
+      "kind": "software-primary",
+      "status": "verified",
+      "checked_on": "2026-10-11",
+      "note": "Vendor PI32v2 compiler and Gitee AC79 SDK; FM-1-specific build/install instructions."
+    },
+    {
+      "id": "S16",
+      "title": "Ghidra JieLi processor module",
+      "url": "https://github.com/kagaimiq/ghidra-jieli",
+      "kind": "software-primary",
+      "status": "verified",
+      "checked_on": "2026-10-11",
+      "note": "README calls PI32v2 support very early; cross-check unsupported instruction handling."
+    },
+    {
+      "id": "S17",
+      "title": "JieLi miscellaneous tools",
+      "url": "https://github.com/kagaimiq/jl-misctools",
+      "kind": "software-primary",
+      "status": "verified",
+      "checked_on": "2026-10-11",
+      "note": "Container tooling candidate. Exact Blackbox variant has not been unpacked in this baseline."
+    },
+    {
+      "id": "S18",
+      "title": "Official JieLi AC79 AIoT SDK",
+      "url": "https://gitee.com/Jieli-Tech/fw-AC79_AIoT_SDK",
+      "kind": "vendor-primary",
+      "status": "verified",
+      "checked_on": "2026-10-11",
+      "note": "Official Gitee source, WL82 target and package-specific resources; not a Blackbox BSP."
+    },
+    {
+      "id": "S19",
+      "title": "Official JieLi AC79 documentation",
+      "url": "https://doc.zh-jieli.com/AC79/zh-cn/master/index.html",
+      "kind": "vendor-primary",
+      "status": "verified",
+      "checked_on": "2026-10-11",
+      "note": "Vendor SDK documentation entry point."
+    },
+    {
+      "id": "S20",
+      "title": "AC79 SDK GitHub mirror",
+      "url": "https://github.com/jeffreywugz/fw-AC79_AIoT_SDK",
+      "kind": "mirror",
+      "status": "verified",
+      "checked_on": "2026-10-11",
+      "note": "Third-party mirror, release/AC79NN_SDK_V1.0.3; candidate datasheets checked. Not official GitHub hosting."
+    },
+    {
+      "id": "S21",
+      "title": "JieLi fw-Bootloader",
+      "url": "https://github.com/Jieli-Tech/fw-Bootloader",
+      "kind": "vendor-primary",
+      "status": "verified",
+      "checked_on": "2026-10-11",
+      "note": "Vendor bootloader source; target applicability requires separate verification."
+    },
+    {
+      "id": "S22",
+      "title": "FM-1 Transporter",
+      "url": "https://github.com/kurogedelic/FM-1-transporter",
+      "kind": "software-primary",
+      "status": "verified",
+      "checked_on": "2026-10-11",
+      "note": "FM-1 ROM entry, flash and RAM-execution research. Blackbox compatibility untested."
+    },
+    {
+      "id": "S23",
+      "title": "M-Vave Blackbox web editor",
+      "url": "https://github.com/jvsobrinho/mvave-blackbox-edit",
+      "kind": "software-primary",
+      "status": "verified",
+      "checked_on": "2026-10-11",
+      "note": "MIT Web Bluetooth editor for stock Blackbox; protocol source, not replacement audio firmware."
+    },
+    {
+      "id": "S24",
+      "title": "Nexperia 74HC/HCT595 datasheet",
+      "url": "https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf",
+      "kind": "vendor-datasheet",
+      "status": "retrieved-and-inspected",
+      "checked_on": "2026-10-11",
+      "note": "Reference for 74HC595 family; actual device manufacturer/electrical specification still needs identification.",
+      "download_filename": "74HC-HCT595.pdf",
+      "sha256": "fa24207e780cd8c4cdb9018d67eb83e53ee75578fc126bda6f59f0d84ceb211a",
+      "size_bytes": 338688,
+      "hash_verification": "local-bytes"
+    },
+    {
+      "id": "S25",
+      "title": "Sitronix ST7789V datasheet hosted by Newhaven",
+      "url": "https://newhavendisplay.com/content/datasheets/ST7789V.pdf",
+      "kind": "vendor-document-mirror",
+      "status": "retrieved-and-inspected",
+      "checked_on": "2026-10-11",
+      "note": "ST7789-family reference. Document has reproduction restrictions; link only in public repository.",
+      "download_filename": "ST7789V.pdf",
+      "sha256": "8ecf0e438aa25554efc473a4cfe6e436f3fb33e68cd876b25041557235d04ca1",
+      "size_bytes": 3203151,
+      "hash_verification": "local-bytes"
+    },
+    {
+      "id": "S26",
+      "title": "JieLi AC7913A6 datasheet, SDK mirror",
+      "url": "https://raw.githubusercontent.com/jeffreywugz/fw-AC79_AIoT_SDK/release/AC79NN_SDK_V1.0.3/doc/datasheet/AC791N%E8%A7%84%E6%A0%BC%E4%B9%A6/datasheet/AC7913A6_Datasheet_V1.0.pdf",
+      "kind": "vendor-document-mirror",
+      "status": "retrieved-and-inspected",
+      "checked_on": "2026-10-11",
+      "note": "Candidate variant, not identified as the exact Blackbox chip. Explicit reproduction restrictions; public package links only.",
+      "download_filename": "AC7913A6.pdf",
+      "sha256": "51bda557e3ec79426442d2e14256ba66a19fbd1b8fff6636233f2b99275f24d4",
+      "size_bytes": 1504446,
+      "hash_verification": "local-bytes"
+    },
+    {
+      "id": "S27",
+      "title": "JieLi AC7911B datasheet, SDK mirror",
+      "url": "https://raw.githubusercontent.com/jeffreywugz/fw-AC79_AIoT_SDK/release/AC79NN_SDK_V1.0.3/doc/datasheet/AC791N%E8%A7%84%E6%A0%BC%E4%B9%A6/datasheet/AC7911B_Datasheet_V1.1.pdf",
+      "kind": "vendor-document-mirror",
+      "status": "retrieved-and-inspected",
+      "checked_on": "2026-10-11",
+      "note": "Candidate variant, not identified as the exact Blackbox chip. Explicit reproduction restrictions; public package links only.",
+      "download_filename": "AC7911B.pdf",
+      "sha256": "ed2e793b1fa336997e71988adb1eb7e726e5791ff2d97d19e0f82e92eabf7bd5",
+      "size_bytes": 1853874,
+      "hash_verification": "local-bytes"
+    },
+    {
+      "id": "S28",
+      "title": "JieLi AC7916A datasheet, SDK mirror",
+      "url": "https://raw.githubusercontent.com/jeffreywugz/fw-AC79_AIoT_SDK/release/AC79NN_SDK_V1.0.3/doc/datasheet/AC791N%E8%A7%84%E6%A0%BC%E4%B9%A6/datasheet/AC7916A_Datasheet_V1.0.pdf",
+      "kind": "vendor-document-mirror",
+      "status": "retrieved-and-inspected",
+      "checked_on": "2026-10-11",
+      "note": "Candidate variant, not identified as the exact Blackbox chip. Explicit reproduction restrictions; public package links only.",
+      "download_filename": "AC7916A.pdf",
+      "sha256": "873b221e0e8f640df60cb500f9f11084d3f5d8860210cd7eb40a1d4232576f0e",
+      "size_bytes": 2028059,
+      "hash_verification": "local-bytes"
+    },
+    {
+      "id": "S29",
+      "title": "TONE3000 API integration guide",
+      "url": "https://github.com/tone-3000/api",
+      "kind": "software-primary",
+      "status": "located",
+      "checked_on": "2026-10-11",
+      "note": "Later editor integration lead; not required for first standalone model."
+    },
+    {
+      "id": "S30",
+      "title": "TONE3000 model catalog",
+      "url": "https://www.tone3000.com",
+      "kind": "catalog",
+      "status": "located",
+      "checked_on": "2026-10-11",
+      "note": "User-selected model source; no individual capture downloaded in this baseline."
+    },
+    {
+      "id": "S31",
+      "title": "FM-1 PI32v2 toolchain setup script",
+      "url": "https://github.com/AL-255/FM-1-RE/blob/main/scripts/setup_toolchain.sh",
+      "kind": "software-primary",
+      "status": "located",
+      "checked_on": "2026-10-11",
+      "note": "Pin and inspect script before running; vendor compiler is distinct from generic ARM tools."
+    },
+    {
+      "id": "S32",
+      "title": "FCC 2025 internal-photo PDF mirror",
+      "url": "https://device.report/m/92b7148405d54baa367da5aa8d161a635d4235d3af740ef9c113a30f3403d919.pdf",
+      "kind": "primary-photo-exhibit-mirror",
+      "status": "metadata-verified",
+      "checked_on": "2026-10-11",
+      "note": "Hash/size are catalog values; bytes not retrieved locally.",
+      "download_filename": "fcc-internal-8052662.pdf",
+      "sha256": "92b7148405d54baa367da5aa8d161a635d4235d3af740ef9c113a30f3403d919",
+      "size_bytes": 1782617,
+      "hash_verification": "catalog-only"
+    },
+    {
+      "id": "S33",
+      "title": "FCC 2024 internal-photo PDF alternative mirror",
+      "url": "https://device.report/m/f1779277680549124da59de20a534594ee7559f49b43a94aea681a97cba66386.pdf",
+      "kind": "primary-photo-exhibit-mirror",
+      "status": "metadata-verified",
+      "checked_on": "2026-10-11",
+      "note": "Same exhibit hash as S03. Direct retrieval from this host was blocked; S03 was retrieved successfully."
+    },
+    {
+      "id": "S34",
+      "title": "FCC Blackbox user manual",
+      "url": "https://fcc.report/FCC-ID/2ARCP-BLACK-BOX/7467094.pdf",
+      "kind": "vendor-manual-in-filing",
+      "status": "located",
+      "checked_on": "2026-10-11",
+      "note": "Official product manual exhibit; direct retrieval was blocked in this pass."
+    },
+    {
+      "id": "S35",
+      "title": "Highleap Black Box PCB Reverse Engineering",
+      "url": "https://hilelectronic.com/black-box-pcb-reverse-engineering/",
+      "kind": "generic-article",
+      "status": "rejected-as-device-evidence",
+      "checked_on": "2026-10-11",
+      "note": "Generic reverse-engineering services article, not an M-Vave teardown. Preserved to explain the correction."
+    },
+    {
+      "id": "S36",
+      "title": "Melodee",
+      "url": "https://github.com/keremimo/melodee",
+      "kind": "community-software",
+      "status": "listed-in-verified-hub",
+      "checked_on": "2026-10-11",
+      "note": "Felucca-related FM-1 project; not Felucca canonical hosting."
+    },
+    {
+      "id": "S37",
+      "title": "SLOOP FM-1",
+      "url": "https://github.com/isod89/sloop-fm1",
+      "kind": "community-software",
+      "status": "listed-in-verified-hub",
+      "checked_on": "2026-10-11",
+      "note": "FM-1 groovebox reference; no Blackbox applicability established."
+    },
+    {
+      "id": "S38",
+      "title": "X0X FM-1",
+      "url": "https://github.com/charlesvestal/fm1-x0x",
+      "kind": "community-software",
+      "status": "listed-in-verified-hub",
+      "checked_on": "2026-10-11",
+      "note": "FM-1 synth/groovebox reference."
+    },
+    {
+      "id": "S39",
+      "title": "Groove OS",
+      "url": "https://www.groove-os.com/",
+      "kind": "community-product",
+      "status": "listed-in-verified-hub",
+      "checked_on": "2026-10-11",
+      "note": "FM-1 product lead, not a Blackbox runtime."
+    },
+    {
+      "id": "S40",
+      "title": "Hacker News FM-1 discussion",
+      "url": "https://news.ycombinator.com/item?id=49994065",
+      "kind": "prior-citation",
+      "status": "inherited-unverified",
+      "checked_on": null,
+      "note": "Preserved from earlier discussion; content/claim not independently verified in this baseline. Do not use as primary Blackbox evidence."
+    },
+    {
+      "id": "S41",
+      "title": "Reddit FM-1VA discussion",
+      "url": "https://www.reddit.com/r/synthesizers/comments/1wraimy/fm1va_for_the_mvave_fm1_is_live/",
+      "kind": "prior-citation",
+      "status": "inherited-unverified",
+      "checked_on": null,
+      "note": "Preserved from earlier discussion; content/claim not independently verified in this baseline. Do not use as primary Blackbox evidence."
+    },
+    {
+      "id": "S42",
+      "title": "Synth Anatomy X0X coverage",
+      "url": "https://synthanatomy.com/2026/10/charles-vestal-x0x-custom-firmware-turns-the-m-vave-fm-1-into-a-rebirth-like-groovebox.html",
+      "kind": "prior-citation",
+      "status": "inherited-unverified",
+      "checked_on": null,
+      "note": "Preserved from earlier discussion; content/claim not independently verified in this baseline. Do not use as primary Blackbox evidence."
+    },
+    {
+      "id": "S43",
+      "title": "Synth Anatomy Groove OS coverage",
+      "url": "https://synthanatomy.com/2026/10/groove-os-turns-the-m-vave-fm-1-into-an-8-track-groovebox.html",
+      "kind": "prior-citation",
+      "status": "inherited-unverified",
+      "checked_on": null,
+      "note": "Preserved from earlier discussion; content/claim not independently verified in this baseline. Do not use as primary Blackbox evidence."
+    },
+    {
+      "id": "S44",
+      "title": "Reddit Blackbox protocol discussion",
+      "url": "https://www.reddit.com/r/guitarpedals/comments/1whg0ek/reverseengineering_the_mvave_blackbox_full/",
+      "kind": "prior-citation",
+      "status": "inherited-unverified",
+      "checked_on": null,
+      "note": "Preserved from earlier discussion; content/claim not independently verified in this baseline. Do not use as primary Blackbox evidence."
+    },
+    {
+      "id": "S45",
+      "title": "Reddit Blackbox best-practice discussion",
+      "url": "https://www.reddit.com/r/guitarpedals/comments/1f4v8g1/mvave_blackbox_best_practice_hints/",
+      "kind": "prior-citation",
+      "status": "inherited-unverified",
+      "checked_on": null,
+      "note": "Preserved from earlier discussion; content/claim not independently verified in this baseline. Do not use as primary Blackbox evidence."
+    },
+    {
+      "id": "S46",
+      "title": "Quarkslab firmware reverse-engineering article",
+      "url": "https://blog.quarkslab.com/nerd-life-weeks-firmware-teardown-we-were-right.html",
+      "kind": "prior-citation",
+      "status": "inherited-unverified",
+      "checked_on": null,
+      "note": "Preserved from earlier discussion; content/claim not independently verified in this baseline. Do not use as primary Blackbox evidence."
+    },
+    {
+      "id": "S47",
+      "title": "ElectronicCats JieLi SDK build notes",
+      "url": "https://github.com/ElectronicCats/jieli-ble-badge-research/blob/main/docs/jieli-sdk-build.md",
+      "kind": "prior-citation",
+      "status": "inherited-unverified",
+      "checked_on": null,
+      "note": "Preserved from earlier discussion; content/claim not independently verified in this baseline. Do not use as primary Blackbox evidence."
+    },
+    {
+      "id": "S48",
+      "title": "ElectronicCats JieLi flash-dump notes",
+      "url": "https://github.com/ElectronicCats/jieli-ble-badge-research/blob/main/docs/dump-firmware.md",
+      "kind": "prior-citation",
+      "status": "inherited-unverified",
+      "checked_on": null,
+      "note": "Preserved from earlier discussion; content/claim not independently verified in this baseline. Do not use as primary Blackbox evidence."
+    },
+    {
+      "id": "S49",
+      "title": "Older JieLi AC690X recovery issue",
+      "url": "https://github.com/christian-kramer/JieLi-AC690X-Familiarization/issues/11",
+      "kind": "prior-citation",
+      "status": "inherited-unverified",
+      "checked_on": null,
+      "note": "Preserved from earlier discussion; content/claim not independently verified in this baseline. Do not use as primary Blackbox evidence. AC690X is a different chip family."
+    },
+    {
+      "id": "S50",
+      "title": "Electrodragon JieLi component notes",
+      "url": "https://w2.electrodragon.com/Chip-cn-dat/jieli-dat/jieli-dat.md",
+      "kind": "prior-citation",
+      "status": "inherited-unverified",
+      "checked_on": null,
+      "note": "Preserved from earlier discussion; content/claim not independently verified in this baseline. Do not use as primary Blackbox evidence."
+    },
+    {
+      "id": "S51",
+      "title": "Cuvave ANN Blackbox product page",
+      "url": "http://www.cuvave.com/product?id=annblack-box",
+      "kind": "prior-citation",
+      "status": "inherited-unverified",
+      "checked_on": null,
+      "note": "Preserved from earlier discussion; content/claim not independently verified in this baseline. Do not use as primary Blackbox evidence."
+    },
+    {
+      "id": "S52",
+      "title": "M-Vave video previously cited for teardown",
+      "url": "https://www.youtube.com/watch?v=ZfxioIpo3TM",
+      "kind": "prior-citation",
+      "status": "inherited-unverified",
+      "checked_on": null,
+      "note": "Preserved from earlier discussion; content/claim not independently verified in this baseline. Do not use as primary Blackbox evidence."
+    },
+    {
+      "id": "S53",
+      "title": "M-Vave video previously cited for teardown",
+      "url": "https://www.youtube.com/watch?v=Czc9MuiVjwE",
+      "kind": "prior-citation",
+      "status": "inherited-unverified",
+      "checked_on": null,
+      "note": "Preserved from earlier discussion; content/claim not independently verified in this baseline. Do not use as primary Blackbox evidence."
+    },
+    {
+      "id": "S54",
+      "title": "Video previously cited for firmware extraction",
+      "url": "https://www.youtube.com/watch?v=0qvot1ttonU",
+      "kind": "prior-citation",
+      "status": "inherited-unverified",
+      "checked_on": null,
+      "note": "Preserved from earlier discussion; content/claim not independently verified in this baseline. Do not use as primary Blackbox evidence."
+    },
+    {
+      "id": "S55",
+      "title": "Video previously cited for display/control research",
+      "url": "https://www.youtube.com/watch?v=YPALS8W4XNY&t=205",
+      "kind": "prior-citation",
+      "status": "inherited-unverified",
+      "checked_on": null,
+      "note": "Preserved from earlier discussion; content/claim not independently verified in this baseline. Do not use as primary Blackbox evidence."
+    },
+    {
+      "id": "S56",
+      "title": "Video previously cited for alternate firmware",
+      "url": "https://www.youtube.com/watch?v=V5xKD7XsGoI",
+      "kind": "prior-citation",
+      "status": "inherited-unverified",
+      "checked_on": null,
+      "note": "Preserved from earlier discussion; content/claim not independently verified in this baseline. Do not use as primary Blackbox evidence."
+    },
+    {
+      "id": "S57",
+      "title": "M-Vave Blackbox panel video",
+      "url": "https://www.facebook.com/mvaveofficialis/videos/m-vave-blackbox-panel-introductionblackbox-function-introduction-sampling-rate-4/1375920873796244/",
+      "kind": "prior-citation",
+      "status": "inherited-unverified",
+      "checked_on": null,
+      "note": "Preserved from earlier discussion; content/claim not independently verified in this baseline. Do not use as primary Blackbox evidence."
+    },
+    {
+      "id": "S58",
+      "title": "Gearnews custom-firmware article",
+      "url": "https://www.gearnews.com/custom-firmware-is-booming-synths/",
+      "kind": "prior-citation",
+      "status": "inherited-unverified",
+      "checked_on": null,
+      "note": "Preserved from earlier discussion; content/claim not independently verified in this baseline. Do not use as primary Blackbox evidence."
+    },
+    {
+      "id": "S59",
+      "title": "1010music Blackbox mod article",
+      "url": "https://synthanatomy.com/2026/10/justin-joe-blackbox-mod-custom-firmware.html",
+      "kind": "prior-citation",
+      "status": "inherited-unverified",
+      "checked_on": null,
+      "note": "Preserved from earlier discussion; content/claim not independently verified in this baseline. Do not use as primary Blackbox evidence. This names the 1010music sampler, a different product."
+    }
+  ]
+}

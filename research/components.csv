@@ -1,0 +1,12 @@
+id,item,identification,source_id,location,confidence,next_check
+C01,Main board,PD40 V04,S03,page 2 upper,observed,Board shown in 2024 filing; retail revision must be checked
+C02,Main IC,JieLi branding; exact model unresolved,S03,page 3 upper,observed-brand-only,Read full marking and confirm via supported identification interface
+C03,Firmware platform,AC791N_STORY,S05,container byte offset 1060,observed-string,Platform clue; not exact physical silicon variant
+C04,Logic register,74HC595D,S03,"page 3 upper, right of crystal",observed,Trace connections; output register does not directly read buttons
+C05,Display board,1.54TFT-SPI-ST7789 / Ver:1.1,S03,page 4 upper,observed-label,"Confirm controller suffix, initialization and Blackbox routing"
+C06,Antenna,BT/BLE red wire,S03,page 3 upper,exhibit-labelled,Board-specific antenna configuration
+C07,Battery,Pouch with three-wire connector,S03,pages 4-5,observed-form-only,"Chemistry, capacity and third-wire role unassigned"
+C08,Crystal,Metal-can package; frequency unknown,S03,page 3 upper,unidentified-part,Readable marking or oscillator measurement required
+C09,Analog front end,Unidentified small ICs,S03,pages 2-3 jack region,unidentified,Do not invent op-amp or codec part numbers
+C10,Flash/storage,Unknown,S03,unresolved,unknown,"Location, model, capacity, voltage and protocol required"
+C11,Controls,Two footswitches and rotary/button controls,S03,page 2 upper,observed-hardware,GPIO and scan strategy unmapped

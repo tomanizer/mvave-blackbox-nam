@@ -1,0 +1,53 @@
+{
+  "source_sha256": "f1779277680549124da59de20a534594ee7559f49b43a94aea681a97cba66386",
+  "excerpts": [
+    {
+      "path": "resources/photos/fcc-7467092-p2-board-front.png",
+      "source_id": "S03",
+      "exhibit_id": "7467092",
+      "page_1_based": 2,
+      "render_max_dimension_pixels": 1800,
+      "crop_box_pixels": [
+        515,
+        103,
+        821,
+        611
+      ],
+      "sha256": "664c4d63772f8b24893a1a7fbe93f8ab5a9d8ada36c0d4c05d3f4d89d93f88b7",
+      "attribution": "Sinco Intelligent Technology Co., Ltd.; FCC internal-photo exhibit 7467092",
+      "license": "Source-owner rights retained; limited technical-analysis excerpt, not MIT."
+    },
+    {
+      "path": "resources/photos/fcc-7467092-p3-processor-logic-detail.png",
+      "source_id": "S03",
+      "exhibit_id": "7467092",
+      "page_1_based": 3,
+      "render_max_dimension_pixels": 1800,
+      "crop_box_pixels": [
+        454,
+        420,
+        927,
+        648
+      ],
+      "sha256": "93f76a16e410a4b8656aec98cf8fa525cbbb4e7494cb5964c4b6b7e7894f0617",
+      "attribution": "Sinco Intelligent Technology Co., Ltd.; FCC internal-photo exhibit 7467092",
+      "license": "Source-owner rights retained; limited technical-analysis excerpt, not MIT."
+    },
+    {
+      "path": "resources/photos/fcc-7467092-p4-display-label.png",
+      "source_id": "S03",
+      "exhibit_id": "7467092",
+      "page_1_based": 4,
+      "render_max_dimension_pixels": 1800,
+      "crop_box_pixels": [
+        636,
+        177,
+        778,
+        552
+      ],
+      "sha256": "910f544f09de6a72324517125bba096bb15c9ec18f5eed184a1d33eaae4132d7",
+      "attribution": "Sinco Intelligent Technology Co., Ltd.; FCC internal-photo exhibit 7467092",
+      "license": "Source-owner rights retained; limited technical-analysis excerpt, not MIT."
+    }
+  ]
+}

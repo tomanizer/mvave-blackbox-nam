@@ -1,0 +1,97 @@
+{
+  "checked_on": "2026-10-11",
+  "repositories": [
+    {
+      "repo": "tone-3000/embedded",
+      "branch": "main",
+      "sha": "b84b60c652cb386ea341be50b8c665ae8a489cff",
+      "license": "MIT",
+      "status": "verified",
+      "url": "https://github.com/tone-3000/embedded"
+    },
+    {
+      "repo": "tone-3000/nam-binary-loader",
+      "branch": "main",
+      "sha": "92c9e85bb7903ccbfd3264d3f7bcb5fee6c0892d",
+      "license": "MIT",
+      "status": "verified",
+      "url": "https://github.com/tone-3000/nam-binary-loader"
+    },
+    {
+      "repo": "sdatkinson/NeuralAmpModelerCore",
+      "branch": "main",
+      "sha": "0b3d3c97b0859a3a8c92a8628c4dd89a25eb5842",
+      "license": "MIT",
+      "status": "verified",
+      "url": "https://github.com/sdatkinson/NeuralAmpModelerCore"
+    },
+    {
+      "repo": "hugelton/Felucca",
+      "branch": "main",
+      "sha": "ef1f561b6b105f20350f6b1eac0dc0789a357f00",
+      "license": "GPL-3.0",
+      "status": "verified",
+      "url": "https://github.com/hugelton/Felucca"
+    },
+    {
+      "repo": "AL-255/FM-1-RE",
+      "branch": "main",
+      "sha": "ec832f281ca165a7d5e0722985f3acb1465046d5",
+      "license": "WTFPL",
+      "status": "verified",
+      "url": "https://github.com/AL-255/FM-1-RE"
+    },
+    {
+      "repo": "aroum/fm1-custom-fw",
+      "branch": "main",
+      "sha": "6536e06c72ef812ce84ab715208d62311f660425",
+      "license": null,
+      "status": "verified",
+      "url": "https://github.com/aroum/fm1-custom-fw"
+    },
+    {
+      "repo": "jvsobrinho/mvave-blackbox-edit",
+      "branch": "main",
+      "sha": "ff9cd6f329de18ca1cb2f4fb94bc81b6e7ab8da8",
+      "license": "MIT",
+      "status": "verified",
+      "url": "https://github.com/jvsobrinho/mvave-blackbox-edit"
+    },
+    {
+      "repo": "kagaimiq/ghidra-jieli",
+      "branch": "main",
+      "sha": "b5e60122b6cd3e6b615387035994b8bed0ea1a26",
+      "license": "Apache-2.0",
+      "status": "verified",
+      "url": "https://github.com/kagaimiq/ghidra-jieli"
+    },
+    {
+      "repo": "kagaimiq/jl-misctools",
+      "branch": "main",
+      "sha": "0a5b12db0ef38f3042acffbe2452730a37fd2405",
+      "license": "MIT",
+      "status": "verified",
+      "url": "https://github.com/kagaimiq/jl-misctools"
+    },
+    {
+      "repo": "Jieli-Tech/fw-Bootloader",
+      "branch": "main",
+      "sha": "ff3b9299d1b94d834b995fd858b3f75e2faa9840",
+      "license": "Apache-2.0",
+      "status": "verified",
+      "url": "https://github.com/Jieli-Tech/fw-Bootloader"
+    },
+    {
+      "repo": "jeffreywugz/fw-AC79_AIoT_SDK",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "ElectronicCats/jieli-ble-badge-research",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "kagaimiq/jieli-linux-toolchains",
+      "error": "HTTP Error 403: rate limit exceeded"
+    }
+  ]
+}
