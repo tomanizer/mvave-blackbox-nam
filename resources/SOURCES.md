@@ -47,6 +47,8 @@ Repository revisions are recorded separately in [upstream-revisions.json](../res
 | S37 | [SLOOP FM-1](https://github.com/isod89/sloop-fm1) | listed-in-verified-hub | FM-1 groovebox reference; no Blackbox applicability established. |
 | S38 | [X0X FM-1](https://github.com/charlesvestal/fm1-x0x) | listed-in-verified-hub | FM-1 synth/groovebox reference. |
 | S39 | [Groove OS](https://www.groove-os.com/) | listed-in-verified-hub | FM-1 product lead, not a Blackbox runtime. |
+| S60 | [Independent Blackbox V20 research](https://github.com/jakino0/mvave-blackbox-reverse-engineering) | upstream-report | Read-only V20 application mapping, USB audio and OTA analysis; compare independently with the local official update. Pinned revision and qualifications in [offline baseline](../docs/10-offline-baseline.md). |
+| S61 | [TONE3000 nam-pedal A2 conversion issue](https://github.com/tone-3000/nam-pedal/issues/9) | upstream-issue | A reported mismatch between current A2 `SlimmableContainer` downloads and an older converter; test the exact model and toolchain. |
 
 ## Earlier citations retained for follow-up
 

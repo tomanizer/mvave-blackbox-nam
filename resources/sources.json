@@ -142,7 +142,7 @@
       "kind": "software-primary",
       "status": "verified",
       "checked_on": "2026-10-11",
-      "note": "Leo Kuroshita / H\u00fcgelton Instruments FM-1 firmware. GPL project with separately licensed packaged assets."
+      "note": "Leo Kuroshita / Hügelton Instruments FM-1 firmware. GPL project with separately licensed packaged assets."
     },
     {
       "id": "S15",
@@ -572,6 +572,24 @@
       "status": "inherited-unverified",
       "checked_on": null,
       "note": "Preserved from earlier discussion; content/claim not independently verified in this baseline. Do not use as primary Blackbox evidence. This names the 1010music sampler, a different product."
+    },
+    {
+      "id": "S60",
+      "title": "Independent Blackbox V20 research",
+      "url": "https://github.com/jakino0/mvave-blackbox-reverse-engineering",
+      "kind": "independent-research",
+      "status": "upstream-report",
+      "checked_on": "2026-10-11",
+      "note": "Pinned 20d6d77a122474e2d6160c0a48586a9128148b77; decrypted V20 map, USB descriptors and OTA/recovery analysis not yet independently reproduced from local decrypted application."
+    },
+    {
+      "id": "S61",
+      "title": "TONE3000 nam-pedal A2 conversion issue",
+      "url": "https://github.com/tone-3000/nam-pedal/issues/9",
+      "kind": "upstream-issue",
+      "status": "upstream-report",
+      "checked_on": "2026-10-11",
+      "note": "Reports a current A2 SlimmableContainer model unsupported by the pinned nam-pedal converter; verify exact model/tool revisions."
     }
   ]
 }

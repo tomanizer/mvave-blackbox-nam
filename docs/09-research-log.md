@@ -23,3 +23,7 @@ No pedal was opened or measured in this research pass; the source photographs ar
 ## Next checkpoint
 
 Complete BB-01, BB-03 and BB-06, then review target resources and the independent recovery path before deciding whether the hardware merits a full port.
+
+## 2026-10-11: offline follow-up
+
+Compared the outer V20 update with an independent Blackbox V20 research repository. Its decrypted application mapping, USB descriptors and boot-entry analysis are useful upstream reports, but the application hash and findings have not yet been reproduced from decrypted local bytes. Ran TONE3000's pinned `make check-all` host suite with its supplied example captures and reference audio; the A2-Lite tests passed. See [offline baseline](10-offline-baseline.md) for exact revisions, hashes, limits and next checks. BB-03 and BB-06 have partial evidence; neither is complete.

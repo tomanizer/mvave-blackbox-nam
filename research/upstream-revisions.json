@@ -92,6 +92,14 @@
     {
       "repo": "kagaimiq/jieli-linux-toolchains",
       "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "jakino0/mvave-blackbox-reverse-engineering",
+      "branch": "main",
+      "sha": "20d6d77a122474e2d6160c0a48586a9128148b77",
+      "license": "MIT",
+      "status": "verified",
+      "url": "https://github.com/jakino0/mvave-blackbox-reverse-engineering"
     }
   ]
 }

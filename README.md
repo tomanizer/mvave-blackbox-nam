@@ -29,6 +29,7 @@ Source records, verification dates and qualifications are in the [source catalog
 | [Backup and recovery](docs/07-backup-and-recovery.md) | Work required before any experimental flash write |
 | [Development roadmap](docs/08-development-roadmap.md) | Deliverables and dependencies |
 | [Research log](docs/09-research-log.md) | What was checked and what remains open |
+| [Offline baseline](docs/10-offline-baseline.md) | Independent V20 work and reproduced NAM host test |
 | [Third-party material](THIRD_PARTY.md) | Attribution and source distribution rules |
 | [Datasheets](resources/datasheets/README.md) | Component-specific document links and applicability |
 | [Photographs](resources/photos/README.md) | Three attributed detail excerpts and original exhibits |
